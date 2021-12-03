@@ -1,0 +1,34 @@
+{
+    "name": "landofcoder/module-shopify-connector",
+    "description": "Magento 2 Shopify integration Extension",
+    "require": {
+        "shopify/shopify-api": "^1.0.1",
+        "landofcoder/module-all" : "1.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "keywords": [
+        "landofcoder",
+        "magento 2 shopify connector",
+        "landofcoder shopify integration",
+        "magento 2 shopify integration",
+        "Sync Shopify products",
+        "Sync Shopify orders",
+        "Sync Shopify customers",
+        "Auto restock shopify products",
+        "Sync Magento 2 Orders to Shopify",
+        "Sync Magento 2 Products to Shopify",
+        "Sync Magento 2 Customers to Shopify",
+        "Create product template"
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+        "Lof\\Mautic\\": ""
+        }
+    }
+}

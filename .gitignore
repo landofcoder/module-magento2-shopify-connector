@@ -1,0 +1,6 @@
+./test
+./dev
+.test
+.test/*
+.ideal
+.ideal/
